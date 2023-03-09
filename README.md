@@ -27,7 +27,7 @@ yarn install
 
 ### 2) Create and configure a Sentry project
 
-Start by heading to Sentry's [create a project](https://sentry.io/projects/new/) page and setup a _Browser JavaScript_ project with the name `"redwood-sentry-demo"`. Once your project has been created, grab its DSN from [the relevant page](https://sentry.io/settings/projects/redwood-sentry-demo/keys/) and set its value as the `SENTRY_DSN` envrionment variable.
+Start by heading to Sentry's [create a project](https://sentry.io/projects/new/) page and setup a _Browser JavaScript_ project with the name "redwood-sentry-demo". Once your project has been created, grab its DSN from [the relevant page](https://sentry.io/settings/projects/redwood-sentry-demo/keys/) and set its value as the `SENTRY_DSN` envrionment variable.
 
 ```dotenv
 SENTRY_DSN=https://XXXXXXX@XXXXXXX.ingest.sentry.io/XXXXXXX
