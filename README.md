@@ -55,10 +55,10 @@ Then navigate to the [`/signup`](http://localhost:8910/signup) page to create an
 
 The [home page](http://localhost:8910) provides a list of links to various pages which will trigger the following:
 
-* **Function Exception** - Trigger [a serverless Function](https://github.com/realStandal/redwood-sentry-demo/blob/main/api/src/functions/exception/exception.ts) which throws an error tagged to the current user (via the web).
-* **Service Exception** - Trigger [a service](https://github.com/realStandal/redwood-sentry-demo/blob/main/api/src/services/exception/exception.ts) which throws an error tagged to the current user (via the API and web).
-* **Prisma Tracing** - Trigger [a service](https://github.com/realStandal/redwood-sentry-demo/blob/main/api/src/services/users/users.ts) which invokes a Prisma query, logging details about the request to Sentry.
-* **Unauthenticated Exception** - Trigger [a service](https://github.com/realStandal/redwood-sentry-demo/blob/main/api/src/services/exception/exception.ts) which throws an error as an unauthenticated user.
+* **Function Exception** - [A serverless Function](https://github.com/realStandal/redwood-sentry-demo/blob/main/api/src/functions/exception/exception.ts) which throws an error tagged to the current user (via the web).
+* **Service Exception** - [A service](https://github.com/realStandal/redwood-sentry-demo/blob/main/api/src/services/exception/exception.ts) which throws an error tagged to the current user (via the API and web).
+* **Prisma Tracing** - [A service](https://github.com/realStandal/redwood-sentry-demo/blob/main/api/src/services/users/users.ts) which invokes a Prisma query, logging details about the request to Sentry.
+* **Unauthenticated Exception** - [A service](https://github.com/realStandal/redwood-sentry-demo/blob/main/api/src/services/exception/exception.ts) which throws an error as an unauthenticated user.
 
 ## License
 
